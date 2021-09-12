@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/362b2bf840.js" crossorigin="anonymous"></script>
+    <script src="quiz.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Math quiz</title>
+</head>
+<body onload="onload()">
+    <div style="text-align: left; display: flex; flex-direction: row; margin: 5px; width: fit-content;" class="input-shadow">
+        <p style="text-transform: capitalize;"><p style="text-transform: capitalize;" id="name1"></p>:<p></p>&nbsp;<i class="fas fa-coins" style="color: gold;"></i>&nbsp;<p id="coins">0</p></p>
+    </div>
+    <br>
+    <div style="text-align: left; display: flex; flex-direction: row; margin: 5px; width: fit-content;" class="input-shadow">
+        <p style="text-transform: capitalize;"><p style="text-transform: capitalize;" id="name2"></p><p>:</p></p>&nbsp;<i class="fas fa-coins" style="color: gold;"></i>&nbsp;<p id="coins2">0</p></p>
+    </div>
+    <center id="gentorium2">
+    <button class="input-shadow-non" id="nosilionQ">Abel</button>
+        <div class="input-shadow" style="width: 500px; height: 150px;" id="ttc">
+            <input type="text" placeholder="First number" id="num1" class="input-shadow">
+            <input type="text" placeholder="Second number" id="num2" class="input-shadow">
+            <br>
+            <br>
+            <button class="input-shadow" id="send" onclick="send()">Send&nbsp;<i class="fas fa-arrow-right" style="color: white;"></i></button>
+        </div>
+    </center>
+    <center style="visibility: hidden;" id="gentorium1">
+        <button class="input-shadow-non" id="nosilion">Abel</button>
+        <div class="input-shadow" id="tcv" style="width: 500px; height: 200px; visibility: hidden;">
+            <p style="font-family: 'Poppins', sans-serif;" id="questin"></p>
+            <input type="number" placeholder="Answer" id="answer" class="input-shadow">
+            <br>
+            <br>
+            <button class="input-shadow" id="submit" onclick="submit()">Submit</button>
+        </div>
+    </center>
+<script async src="https://drv.tw/inc/wd.js"></script></body>
+</html>

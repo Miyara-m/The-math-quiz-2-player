@@ -1,0 +1,268 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+div{
+    text-align: center;
+}
+.responsive{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0px;
+}
+.half{
+    width: 50%; 
+    height: 100%; 
+}
+::selection{
+    background-color: #262626;
+    color: white;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(#00FFFF, #FF99CC);
+}
+.danger{
+    color: #DC143C;
+}
+.okay{
+    color: #25d366;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.input-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50px;
+    margin: 15px;
+    border-style: hidden;
+    padding: 10px;
+    width: 150px;
+    margin-bottom: 3px;
+}
+.btn-gold{
+    border-radius: 50px;
+    width: 100px;
+    margin: 20px;
+    margin-left: 5px;
+    background-color: white;
+    color: gold;
+    padding: 7px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: gold;
+    transition: 0.4s;
+}
+.btn-gold:hover{
+    border-radius: 50px;
+    width: 100px;
+    margin: 20px;
+    color: white;
+    margin-left: 5px;
+    background-color: gold;
+    padding: 7px;
+    border-color: gold;
+}
+.para{
+    width: 500px;
+}
+#submit{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.4s;
+}
+#submit:hover{
+    background-color: #0282fa;
+    box-shadow: 0 4px 8px 0 rgb(2, 109, 250, 0.4), 0 6px 20px 0 rgba(2, 109, 250, 0.19);
+    color: white;
+}
+#send{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.4s;
+}
+#send:hover{
+    background-color: #0282fa;
+    box-shadow: 0 4px 8px 0 rgb(2, 109, 250, 0.4), 0 6px 20px 0 rgba(2, 109, 250, 0.19);
+    color: white;
+}
+.blues{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.4s;
+}
+.blues:hover{
+    background-color: #0282fa;
+    box-shadow: 0 4px 8px 0 rgb(2, 109, 250, 0.4), 0 6px 20px 0 rgba(2, 109, 250, 0.19);
+    color: white;
+}
+.on-blues:focus{
+    background-color: #0282fa;
+    box-shadow: 0 4px 8px 0 rgb(2, 109, 250, 0.4), 0 6px 20px 0 rgba(2, 109, 250, 0.19);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.input-shadow-non{
+    background-color: #0282fa;
+    box-shadow: 0 4px 8px 0 rgb(2, 109, 250, 0.4), 0 6px 20px 0 rgba(2, 109, 250, 0.19);
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50px;
+    border-style: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-transform: capitalize;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card{
+    margin: 35px;
+    visibility: visible;
+    padding: 10px;
+    border-radius: 50px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-card{
+    width: 350px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+.btn-multi{
+    padding: 8.3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    border-style: solid;
+    background-color: white;
+    font-weight: 550;
+    font-size: small;
+    color: #262626;
+    border-width: 1.5px;
+    transition: 0.4s;
+    width: 150px; 
+    border-right-color: #32CD32; 
+    border-left-color: gold; 
+    border-top-color: #02ccfa; 
+    border-bottom-color: #d40404;
+    margin-left: 15px;
+    margin: 30px;
+}
+.cardio{
+    margin: 35px;
+    visibility: visible;
+    padding: 10px;
+    border-radius: 50px;
+    width: 270px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.like{
+    background-color: white;
+    color: #3b5998;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+    transition: 0.4s;
+    font-size: 15px;
+    margin: 5px;
+}
+.like:hover{
+    color: white;
+    background-color: #3b5998;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heart{
+    background-color: white;
+    color: #F35269;;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+    transition: 0.4s;
+    font-size: 15px;
+    margin: 5px;
+}
+.heart:hover{
+    color: white;
+    background-color: #F35269;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hor-card-orange-gradient{
+    background-image: linear-gradient(to right, #FFA500 , #FE5270);
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+}
+.card-multi{
+    margin: 35px;
+    visibility: visible;
+    padding: 10px;
+    border-radius: 50px;
+    width: 270px;
+    text-align: center;
+    border-right-color: #32CD32; 
+    border-left-color: gold; 
+    border-top-color: #02ccfa; 
+    border-bottom-color: #d40404;
+    border-width: 1.5px;
+    border-style: solid;
+}
+.hv-like{
+    color: white;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: hidden;
+    font-size: 15px;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hv-heart{
+    color: white;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: hidden;
+    font-size: 15px;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media(max-width: 568px){
+    .hor-card-orange-gradient{
+        background-image: linear-gradient(to right, #FFA500 , #FE5270);
+        font-family: 'Poppins', sans-serif;
+        width: 80%;
+        padding: 2%;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: white;
+    }
+    .responsive{
+        flex-direction: column;
+    }
+}
+@media(max-width: 350px){
+
+}
